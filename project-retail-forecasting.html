@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI-Powered Retail Sales &amp; Demand Forecasting — Mohamed Sameer S</title>
+  <meta name="description" content="Case study: AI-Powered Retail Sales &amp; Demand Forecasting using Python, Random Forest, Extra Trees, and a 2-page Power BI dashboard.">
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    body{ background:#f7f7f5; }
+    .case-hero{ background:#0a0d14; color:#fff; padding:70px 0 50px; }
+    .case-hero .tag{ display:inline-block; border:1px solid #c9a227; color:#e8c766; font-size:12px; font-weight:700; padding:5px 14px; border-radius:20px; margin-bottom:16px; }
+    .case-hero h1{ font-size:34px; font-weight:700; margin-bottom:10px; }
+    .case-hero p.lead{ color:#b7bfc9; font-size:16px; max-width:760px; }
+    .case-section{ padding:44px 0; border-bottom:1px solid #e7e5df; }
+    .case-section h2{ font-size:21px; font-weight:700; margin-bottom:14px; color:#161616; }
+    .case-section h2 i{ color:#c9a227; margin-right:8px; }
+    .case-section p, .case-section li{ color:#4a4a46; font-size:15px; line-height:1.75; }
+    .badge-pill{ display:inline-block; background:#fff; border:1px solid #ddd; border-radius:20px; padding:6px 14px; font-size:13px; margin:0 6px 8px 0; }
+    .stat-box{ background:#0a0d14; color:#fff; border-radius:10px; padding:20px; text-align:center; }
+    .stat-box .n{ font-size:24px; font-weight:800; color:#e8c766; }
+    .stat-box .l{ font-size:12px; color:#9aa3ae; margin-top:4px; }
+    .workflow-step{ display:flex; gap:14px; margin-bottom:18px; }
+    .workflow-step .num{ flex-shrink:0; width:32px; height:32px; border-radius:50%; background:linear-gradient(135deg,#c9a227,#3e7c8c); color:#0a0d14; font-weight:800; display:flex; align-items:center; justify-content:center; font-size:14px; }
+    .note-box{ background:#fff8e8; border-left:3px solid #c9a227; padding:16px 20px; border-radius:6px; font-size:14px; color:#5a4d24; }
+    .back-link{ color:#c9a227; font-size:14px; font-weight:600; }
+    .cta-row{ display:flex; gap:14px; flex-wrap:wrap; margin-top:20px; }
+    .btn-gold{ background:linear-gradient(90deg,#c9a227,#3e7c8c); color:#0a0d14; font-weight:700; padding:10px 24px; border-radius:30px; font-size:14px; }
+    .btn-outline-light2{ border:1px solid rgba(255,255,255,.3); color:#fff; padding:10px 24px; border-radius:30px; font-size:14px; }
+  </style>
+</head>
+<body>
+
+<div class="case-hero">
+  <div class="container">
+    <a href="index.html#portfolio" class="back-link"><i class="bi bi-arrow-left"></i> Back to Projects</a>
+    <div class="tag">FORECASTING · DATA SCIENCE</div>
+    <h1>AI-Powered Retail Sales &amp; Demand Forecasting</h1>
+    <p class="lead">
+      An end-to-end retail analytics project that cleans and explores 30,000+ transaction records, engineers
+      time-aware features, trains and compares tree-based regression models to forecast demand, and surfaces
+      the results in a 2-page Power BI dashboard for business stakeholders.
+    </p>
+    <div class="cta-row">
+      <a href="#" onclick="alert('Add your repo link here once it\'s pushed to GitHub — this button is a placeholder for now.'); return false;" class="btn-gold" style="opacity:.6; cursor:not-allowed;"><i class="bi bi-github"></i> Repository link coming soon</a>
+      <a href="index.html#contact" class="btn-outline-light2">Contact Me</a>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="row case-section">
+    <div class="col-lg-6">
+      <h2><i class="bi bi-exclamation-circle"></i>Problem Statement</h2>
+      <p>Retail businesses generate large volumes of daily sales data across categories and regions, but without
+        a structured forecasting process, demand planning tends to rely on gut-feel or simple historical averages.
+        This makes it hard to anticipate category- and region-level demand shifts, which can lead to overstocking,
+        stockouts, and inefficient inventory decisions.</p>
+
+      <h2 class="mt-4"><i class="bi bi-bullseye"></i>Objective</h2>
+      <p>Build a demand forecasting pipeline that cleans and explores retail transaction data, engineers
+        time-based features, trains and evaluates tree-based regression models against a baseline, and presents
+        the results — including actual-vs-predicted demand — in an interactive Power BI dashboard that a business
+        stakeholder can use directly.</p>
+    </div>
+    <div class="col-lg-6">
+      <div class="row g-3">
+        <div class="col-6"><div class="stat-box"><div class="n">30,000+</div><div class="l">Retail records analyzed</div></div></div>
+        <div class="col-6"><div class="stat-box"><div class="n">2</div><div class="l">Model types compared</div></div></div>
+        <div class="col-6"><div class="stat-box"><div class="n">2</div><div class="l">Power BI dashboard pages</div></div></div>
+        <div class="col-6"><div class="stat-box"><div class="n">3</div><div class="l">Evaluation metrics used</div></div></div>
+      </div>
+      <div class="note-box mt-3">
+        Every figure on this page is scoped to what the project actually does (dataset size, tools, methods).
+        No accuracy score or forecast performance number is claimed here — see the GitHub repo for implementation
+        detail and any reported metric values.
+      </div>
+    </div>
+  </div>
+
+  <div class="row case-section">
+    <div class="col-12">
+      <h2><i class="bi bi-tools"></i>Technologies Used</h2>
+      <span class="badge-pill">Excel</span>
+      <span class="badge-pill">MySQL / SQL</span>
+      <span class="badge-pill">Python</span>
+      <span class="badge-pill">Pandas</span>
+      <span class="badge-pill">NumPy</span>
+      <span class="badge-pill">Scikit-learn</span>
+      <span class="badge-pill">Power BI</span>
+    </div>
+  </div>
+
+  <div class="row case-section">
+    <div class="col-lg-6">
+      <h2><i class="bi bi-clipboard-data"></i>Data Cleaning &amp; EDA</h2>
+      <p>The raw retail dataset (30,000+ records) was cleaned and explored to check for missing values,
+        inconsistent categories, and outliers, and to understand sales and demand patterns across time,
+        product category, and region before any modeling was attempted.</p>
+
+      <h2 class="mt-4"><i class="bi bi-diagram-2"></i>Feature Engineering</h2>
+      <p>Time-aware features were engineered to give the models a sense of recent trend and momentum, including:</p>
+      <ul>
+        <li><strong>Lag features</strong> — prior-period sales/demand values</li>
+        <li><strong>Rolling averages</strong> — smoothed recent-demand trends</li>
+      </ul>
+    </div>
+    <div class="col-lg-6">
+      <h2><i class="bi bi-cpu"></i>Machine Learning</h2>
+      <p>Two tree-based ensemble regressors were trained and compared for the demand forecasting task:</p>
+      <ul>
+        <li><strong>Random Forest Regressor</strong></li>
+        <li><strong>Extra Trees Regressor</strong></li>
+      </ul>
+
+      <h2 class="mt-4"><i class="bi bi-graph-up"></i>Model Evaluation</h2>
+      <p>Model performance was assessed using standard regression metrics, benchmarked against a baseline model:</p>
+      <ul>
+        <li><strong>MAE</strong> (Mean Absolute Error)</li>
+        <li><strong>RMSE</strong> (Root Mean Squared Error)</li>
+        <li><strong>R&sup2;</strong> (coefficient of determination)</li>
+        <li><strong>Baseline comparison</strong> to judge whether the models add real value over a naive forecast</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="row case-section">
+    <div class="col-12">
+      <h2><i class="bi bi-bar-chart-line"></i>Power BI Dashboard</h2>
+      <p>A 2-page interactive Power BI dashboard was built to make the analysis usable for a business audience:</p>
+      <div class="row g-3 mt-2">
+        <div class="col-md-4">
+          <div class="p-3 bg-white rounded border h-100">
+            <strong>Page 1 — Sales &amp; Profit KPIs</strong>
+            <p class="mb-0 mt-1" style="font-size:13.5px;">Headline sales and profit KPIs for a quick business overview.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3 bg-white rounded border h-100">
+            <strong>Category / Region Analysis</strong>
+            <p class="mb-0 mt-1" style="font-size:13.5px;">Breaks down performance by product category and region.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="p-3 bg-white rounded border h-100">
+            <strong>Page 2 — Actual vs. Predicted Demand</strong>
+            <p class="mb-0 mt-1" style="font-size:13.5px;">Visual comparison of forecasted vs. actual demand for review.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row case-section">
+    <div class="col-lg-6">
+      <h2><i class="bi bi-lightbulb"></i>Key Business Insights</h2>
+      <ul>
+        <li>Breaking down sales and profit by category and region gives stakeholders a fast way to spot where
+          performance is concentrated, without digging through raw tables.</li>
+        <li>Lag and rolling-average features let the model account for recent momentum in demand rather than
+          treating every period as independent.</li>
+        <li>Plotting actual vs. predicted demand side-by-side on the dashboard makes it easy for a non-technical
+          viewer to see where the forecast tracks well and where it doesn't — which is more useful for trust and
+          adoption than a single accuracy number.</li>
+        <li>Comparing the models against a baseline keeps the evaluation honest: it shows whether the added
+          complexity of Random Forest / Extra Trees is actually earning its keep.</li>
+      </ul>
+    </div>
+    <div class="col-lg-6">
+      <h2><i class="bi bi-diagram-3"></i>Project Workflow</h2>
+      <div class="workflow-step"><div class="num">1</div><div><strong>Data Collection</strong><br>30,000+ retail records gathered for analysis.</div></div>
+      <div class="workflow-step"><div class="num">2</div><div><strong>Data Cleaning &amp; EDA</strong><br>Handle missing values/outliers; explore trends by time, category, region.</div></div>
+      <div class="workflow-step"><div class="num">3</div><div><strong>Feature Engineering</strong><br>Build lag features and rolling averages.</div></div>
+      <div class="workflow-step"><div class="num">4</div><div><strong>Model Training</strong><br>Train Random Forest and Extra Trees regressors.</div></div>
+      <div class="workflow-step"><div class="num">5</div><div><strong>Model Evaluation</strong><br>Compare MAE, RMSE, R&sup2; against a baseline.</div></div>
+      <div class="workflow-step"><div class="num">6</div><div><strong>Dashboarding</strong><br>Build a 2-page Power BI dashboard: KPIs, category/region analysis, actual vs. predicted demand.</div></div>
+    </div>
+  </div>
+
+  <div class="row case-section" style="border-bottom:none;">
+    <div class="col-12 text-center py-3">
+      <a href="#" onclick="alert('Add your repo link here once it\'s pushed to GitHub — this button is a placeholder for now.'); return false;" class="btn-gold" style="opacity:.6; cursor:not-allowed;"><i class="bi bi-github"></i> Repository link coming soon</a>
+    </div>
+  </div>
+
+</div>
+
+<footer class="footer" style="background:#0a0d14; color:#8b93a3; text-align:center; padding:26px; font-size:13px;">
+  &copy; Copyright <strong style="color:#fff;">Mohamed Sameer S</strong> — All Rights Reserved
+</footer>
+
+</body>
+</html>
